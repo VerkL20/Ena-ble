@@ -2,9 +2,9 @@
 Projekt pri UVP
 Enacble je enostavna igra zasnovana na ideji popularne igre Wordle z matematičnim preobratom.
 
-##Avtor
+## Avtor
 - Lovro Verk
 
-##Mentorji
+## Mentorji
 - Matjaž Zaveršnik
 - Matija Pretnar
