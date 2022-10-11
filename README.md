@@ -1,2 +1,2 @@
-# Ena-ble
+# Enacble
 Projekt pri UVP
