@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Enačble</title>
+</head>
+
+<style>
+h1 {text-align: center;}
+h2 {text-align: left;}
+ul {text-align: left;}
+</style>
+
+
+<body style="background-color:#ecffdc; padding: 10px">
+
+<h1>Iskanje enačbe</h1>
+
+<h2>Pravila</h2>
+<ul>
+    <li>Podan bo rezultat skrite enačbe, cilj je najti to enačbo!</li>
+    <li>Imaš 6 poskusov, vsak poskus je sestavljen iz 6 znakov <i>(primer: '2*7+16')</i>.</li>
+    <li>V enačbi sta dve operaciji <i>(ne nujno različni)</i>.</li>
+    <li>Operacije na voljo so '+', '-', '*' <i>(množenje)</i> in '/' <i>(deljenje)</i>.</li>
+    <li>Ugibaš lahko le z enačbo, ki da <b>ISTI REZULTAT</b> kot skrita enačba.</li>
+    <li>Ko ugibaš, se bo na levi strani pojavilo število pravilno ugotovljenih števk, na desni pa operacij.</li>
+    <li>Igra se zaključi, ko ti zmanjka poskusov ali ko pravilno uganeš enačbo.</li>
+    <li><i>Če se ugib ne želi naložiti, zbriši ugib in ponovno klikni gumb <b>Ugibaj</b>.</i></li>
+</ul>
+<h2 style="color: orange">Vso srečo!</h2>
+
+<form action="/igra/" method="post">
+    <button type="button" class="btn btn-success" onclick="location.href='/igra/'">Nova igra</button>
+</form>
+
+<div style="text-align:right">
+  <figure>
+    <img src="/views/smiley.jpg" alt="Good Luck" width="120" height="120">
+  </figure>
+</div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</html>
